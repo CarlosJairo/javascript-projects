@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Age calculator app</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <form class="form">
+        <div class="label-ctn">
+          <label for="day " class="day-label">
+            DAY
+            <input
+              type="number"
+              id="day"
+              name="day"
+              placeholder="DD"
+              required
+            />
+            <p class="error-mesage day-error">Must be a valid day</p>
+          </label>
+          <label for="month" class="month-label">
+            MONTH
+            <input
+              type="number"
+              id="month"
+              name="month"
+              placeholder="MM"
+              required
+            />
+            <p class="error-mesage month-error">Must be a valid month</p>
+          </label>
+          <label for="year" class="year-label">
+            YEAR
+            <input
+              type="number"
+              id="year"
+              name="year"
+              placeholder="YY"
+              required
+            />
+            <p class="error-mesage year-error">Must be a valid past</p>
+          </label>
+        </div>
+        <div class="button-ctn">
+          <hr />
+          <button>
+            <img src="assets/images/icon-arrow.svg" alt="Abajo" />
+          </button>
+        </div>
+      </form>
+
+      <article>
+        <p><span class="years">--</span> years</p>
+        <p><span class="months">--</span> months</p>
+        <p><span class="days">--</span> days</p>
+      </article>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
