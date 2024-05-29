@@ -36,3 +36,8 @@ El color seleccionado se aplica al fondo del documento y se muestra en un span.
 
 - **assignDecision:** Asigna la decisión de color actual y actualiza la interfaz para reflejar la selección.
 - **changeColor:** Cambia el color de fondo del documento y actualiza el texto del span con el valor del
+
+### Uso
+
+- **Presionar el siguiente link:**
+- [Ver aplicación](https://carlosjairo.github.io/javascript-projects/04_ChangeColor/)

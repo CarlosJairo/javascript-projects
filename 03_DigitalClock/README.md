@@ -27,3 +27,8 @@ El reloj digital actualiza la hora cada segundo y muestra el tiempo en un format
 ### Funciones Principales
 
 - **showHour:** Función que obtiene la hora actual y actualiza los elementos del DOM correspondientes.
+
+### Uso
+
+- **Presionar el siguiente link:**
+- [Ver aplicación](https://carlosjairo.github.io/javascript-projects/03_DigitalClock/)

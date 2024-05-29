@@ -22,12 +22,15 @@ function showHour() {
   const currentTime = date.toLocaleTimeString();
   const day = date.getDay();
 
-  // Mostrar el tiempo en el reloj
-  $clock.textContent =
-    (currentTime.slice(0, 2).includes(":") && "0") + currentTime.slice(0, -5);
+  $array = currentTime.slice(0, -6).split(":");
+
+  $clock.textContent = `${$array[0] < 10 ? "0" : ""}${$array[0]}:${$array[1]}:${
+    $array[2]
+  }`;
+
   $period.textContent = currentTime.includes("p") ? "pm" : "am";
 
-  // Resalte el día actual en el contenedor de días.
+  // Resaltar el día actual en el contenedor de días.
   $days.forEach(($day) =>
     $day.classList.toggle("active-day", $day.matches(`.day-${day}`))
   );

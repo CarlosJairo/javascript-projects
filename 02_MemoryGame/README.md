@@ -44,3 +44,8 @@ El juego consiste en un conjunto de cartas que están dispuestas boca abajo. El 
 - **convertingTime:** Convierte el tiempo en segundos a formato hh:mm:ss.
 - **win:** Muestra la ventana modal con las estadísticas finales cuando el jugador gana.
 - **resetGame:** Reinicia el juego recargando la página.
+
+### Uso
+
+- **Presionar el siguiente link:**
+- [Ver aplicación](https://carlosjairo.github.io/javascript-projects/02_MemoryGame/)

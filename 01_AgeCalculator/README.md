@@ -11,3 +11,8 @@ La calculadora de edad toma la fecha de nacimiento ingresada por el usuario a tr
 - **Validación de Entrada:** Valida que el día, mes y año ingresados sean valores válidos y dentro del rango aceptable.
 - **Cálculo de Edad:** Calcula la edad en años, meses y días basándose en la fecha actual.
 - **Actualización del DOM:** Muestra los resultados del cálculo en la página web.
+
+### Uso
+
+- **Presionar el siguiente link:**
+- [Ver aplicación](https://carlosjairo.github.io/javascript-projects/01_AgeCalculator/)
